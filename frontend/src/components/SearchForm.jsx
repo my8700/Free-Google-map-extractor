@@ -183,10 +183,6 @@ export default function SearchForm({
               Stop &amp; Save CSV
             </button>
           )}
-
-          <div className="ml-auto text-xs text-slate-400">
-            Powered by Playwright Stealth &bull; Multi-Sector Geo Grid
-          </div>
         </div>
       </form>
     </div>
