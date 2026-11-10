@@ -282,9 +282,18 @@ export default function App() {
           targetGoal={targetGoal}
         />
 
-        <footer className="text-center text-xs text-slate-400 py-6">
-          <p>
-            Google Maps Lead Harvester &bull; Open-Source Distributed B2B Scraping Engine &bull; Released under MIT License
+        <footer className="text-center text-xs text-slate-500 py-8 border-t border-slate-200/70 mt-12 flex flex-col items-center justify-center gap-2">
+          <a
+            href="https://knowndevs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 font-bold text-slate-800 hover:text-blue-600 transition-colors"
+          >
+            <img src="/knowndevs-logo.png" alt="Knowndevs Technologies" className="h-4.5 object-contain" />
+            <span>Developed by Knowndevs Technologies</span>
+          </a>
+          <p className="text-[11px] text-slate-400">
+            Open-Source Distributed B2B Scraping Engine &bull; Released under MIT License
           </p>
         </footer>
       </div>
