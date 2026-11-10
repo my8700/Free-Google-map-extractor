@@ -1,6 +1,23 @@
 # Google Maps Lead Harvester
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](license.md)
+[![Open Source Love](https://img.shields.io/badge/Open_Source-%E2%99%A5-red.svg)](https://github.com)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org)
+[![React 19](https://img.shields.io/badge/React-19-61DAFB.svg?logo=react&logoColor=black)](https://react.dev)
+
 An open-source high-volume lead discovery and extraction system with a modern React frontend and a Playwright-stealth backend.
+
+---
+
+### Developed by [Knowndevs Technologies](https://knowndevs.com/)
+
+<p align="left">
+  <a href="https://knowndevs.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://knowndevs.com/wp-content/uploads/2025/12/Site-Logo.png" alt="Knowndevs Technologies Logo" width="220" />
+  </a>
+</p>
+
+Developed and maintained with ❤️ by **[Knowndevs Technologies](https://knowndevs.com/)** — Empowering businesses with cutting-edge web development, automation, and AI-driven digital engineering.
 
 ---
 

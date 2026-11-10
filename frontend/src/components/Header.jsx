@@ -38,9 +38,24 @@ export default function Header() {
           Google Maps Lead Harvester
         </h1>
       </div>
-      <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto">
+
+      <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto mb-3">
         High-volume, 2-stage lead discovery &amp; contact extraction engine. Discovers target places in bulk across geo-coordinates, then extracts phones, websites, addresses, and crawls websites for emails &amp; WhatsApp.
       </p>
+
+      {/* Developed by Knowndevs Technologies */}
+      <div className="inline-flex items-center justify-center gap-2 px-3.5 py-1.5 bg-white/90 border border-slate-200 rounded-full shadow-2xs text-xs text-slate-600">
+        <span>Developed by</span>
+        <a
+          href="https://knowndevs.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 font-bold text-slate-900 hover:text-blue-600 transition-colors"
+        >
+          <img src="/knowndevs-logo.png" alt="Knowndevs Technologies" className="h-4 object-contain" />
+          <span>Knowndevs Technologies</span>
+        </a>
+      </div>
     </header>
   );
 }
