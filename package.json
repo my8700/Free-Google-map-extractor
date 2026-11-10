@@ -1,0 +1,32 @@
+{
+  "name": "google-maps-lead-harvester",
+  "version": "2.0.0",
+  "description": "High-volume open-source Google Maps lead scraper with 2-stage discovery engine, stealth anti-bot bypass, background email crawler, and interactive React UI.",
+  "main": "app.py",
+  "type": "module",
+  "scripts": {
+    "setup": "npm run install:all && npm run build",
+    "install:all": "python -m pip install -r requirements.txt && python -m playwright install chromium && cd frontend && npm install",
+    "install:python": "python -m pip install -r requirements.txt && python -m playwright install chromium",
+    "install:frontend": "cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "python app.py",
+    "dev:backend": "python app.py",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "npx concurrently -n \"backend,frontend\" -c \"blue,green\" \"python app.py\" \"cd frontend && npm run dev\""
+  },
+  "keywords": [
+    "google-maps-scraper",
+    "lead-generation",
+    "b2b-leads",
+    "playwright",
+    "stealth",
+    "react",
+    "crawler",
+    "email-extractor",
+    "open-source"
+  ],
+  "author": "Open Source Community",
+  "license": "MIT"
+}
+
